@@ -1,2 +1,9 @@
  var numSecreto = 581;
- prompt("Digite um número entre 1 e 1000");
+ var chute = prompt("Digite um número entre 1 e 1000");
+
+ if(chute == numSecreto){
+    alert('Acertou!')
+ }else{
+    alert('Tente novamente')
+ }
+
